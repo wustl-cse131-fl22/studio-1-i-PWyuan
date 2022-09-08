@@ -17,11 +17,13 @@ public class Ordered {
 		  System.out.println("Value for z?"); 
 		  int z = scan.nextInt();
 		 
-		  boolean a = (x > y) && ();		  
-		  boolean b = y > z;
-		  boolean isOrdered = a==b;
+		  boolean a = x > y ;		  
+		  boolean b = y > z ;
+		  boolean c = (x==z)|| (x==y)||(z==y);
+		  boolean isOrdered = (a==b) && !c;
 		  
 		  //boolean e = x==z;
+		  
 		  
 		  
 		  System.out.println( isOrdered );
